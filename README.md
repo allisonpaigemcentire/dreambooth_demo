@@ -9,9 +9,7 @@ Click "Play" to:
 
 1. Check type of GPU and VRAM available. Click "run anyway" in the dialogue box that appears.
 
-2. Install Requirements:
-   <img width="1112" alt="Screenshot 2023-09-04 at 11 20 22 AM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/c014b2d3-0aeb-4646-8660-59ea59149153">
-
+2. Install Requirements
 
 3. Login to HuggingFace 🤗
 [Create a HuggingFace Account](https://huggingface.co/join)
