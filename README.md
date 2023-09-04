@@ -36,9 +36,30 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
    Max train steps (iterations the model makes on each images in training) = the number of images you uploaded x 100
    Save interval = the number of images you uploaded x 100
    Sample prompt = the string used for "instance prompt" in step 6.
-   Click play, then wait 30-40 minutes for training to complete. Keep your browser active to avoid complications/timing out.
+   Click play, then wait 20-30 minutes for training to complete. Keep your browser active to avoid complications/timing out.
    <img width="584" alt="Screenshot 2023-09-04 at 12 01 41 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/3950fdc4-c5a0-4e7c-9476-0a714b24bfdd">
 
+10. Specify the weights directory to use (leave blank for latest)
 
+11. Run to generate a grid of preview images from the last saved weights.
+    <img width="1404" alt="Screenshot 2023-09-04 at 12 34 17 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/3f1f7312-7bb8-45dc-8176-1bf9d0301743">
+
+12. (Optional) Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
+    This step creates a .ckpt file (similar to .zip) for you model and saves it to your Google Drive
+
+13. (Optional) Inference: sets up the environment to run and test your model in the notebook
+
+14. (Optional) Run for generating images.
+    prompt = the string used for "instance prompt" in step 6, + additional desired details
+    negative_prompt = objects to exclude ("hands" is a popular negative prompt)
+    num_samples = the number of sample images to generate
+    guidance_scale = how closely the model should adhere to the prompt (higher number = more creativity)
+    num_inference_steps = for best results, choose a number between 20 and 65
+    height = height of output image
+    width = width of output image
+
+    <img width="664" alt="Screenshot 2023-09-04 at 12 52 11 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/006fa021-ce28-4406-9fa3-00643a4f35d6">
+
+     
 
 
