@@ -20,8 +20,8 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 5. Settings and run (easy mode):
 
-   <img width="714" alt="Screenshot 2023-09-04 at 12 06 25 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/4df40727-15a9-4661-b406-bc649c007410">
-   
+   <img width="696" alt="Screenshot 2023-09-04 at 1 14 48 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/3dfa098a-16b8-4083-8014-bee17bdeffcc">
+
    Click "Connect to Google Drive" in the dialogue box that appears.
 
 7. Start Training:
@@ -42,7 +42,8 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 10. Specify the weights directory to use (leave blank for latest)
 
 11. Run to generate a grid of preview images from the last saved weights.
-    <img width="1404" alt="Screenshot 2023-09-04 at 12 34 17 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/3f1f7312-7bb8-45dc-8176-1bf9d0301743">
+    <img width="1408" alt="Screenshot 2023-09-04 at 1 36 33 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/ed6bac0e-14ff-481c-aafc-1d9f731ec8a1">
+
 
 12. (Optional) Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
     This step creates a .ckpt file (similar to .zip) for you model and saves it to your Google Drive
@@ -58,7 +59,7 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
     height = height of output image
     width = width of output image
 
-    <img width="664" alt="Screenshot 2023-09-04 at 12 52 11 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/006fa021-ce28-4406-9fa3-00643a4f35d6">
+    <img width="614" alt="Screenshot 2023-09-04 at 1 45 14 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/744efcc3-682e-4f4c-a899-4f241b95515e">
 
      
 
