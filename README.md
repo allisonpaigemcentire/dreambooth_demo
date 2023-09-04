@@ -19,8 +19,8 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 *Note: The notebook instructs you to read the license and tick the checkbox if you agree. I have not encountered a checkbox with any license; you may only need to read the license for the model you choose.
 
 5. Settings and run (easy mode):
-   <img width="714" alt="Screenshot 2023-09-04 at 12 06 25 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/4df40727-15a9-4661-b406-bc649c007410">
 
+   <img width="714" alt="Screenshot 2023-09-04 at 12 06 25 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/4df40727-15a9-4661-b406-bc649c007410">
    Click "Connect to Google Drive" in the dialogue box that appears.
 
 7. Start Training:
