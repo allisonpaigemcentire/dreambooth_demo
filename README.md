@@ -20,16 +20,17 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 5. Settings and run (easy mode):
    <img width="714" alt="Screenshot 2023-09-04 at 12 06 25 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/4df40727-15a9-4661-b406-bc649c007410">
+
    Click "Connect to Google Drive" in the dialogue box that appears.
 
-6. Start Training:
+7. Start Training:
    Edit the concepts list. Choose a unique identifier for the instance prompt, e.g. "robotMaria" and a generic identifier for the class promt ("robot)". The unique identifier you choose will be the prompt you use on your final model.
    <img width="806" alt="Screenshot 2023-09-04 at 11 31 44 AM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/ed3d511f-5402-4cc5-9638-f869ce1d5034">
 
-7. Upload your image dataset (easy mode):
+8. Upload your image dataset (easy mode):
   Expand the Files menu on the lefthand side of the notebook and updload your files to the data/<instance prompt> folder created in the previous step. Once the upload completes, click play to finalize this step.
 
-8. Edit the python command:
+9. Edit the python command:
    Seed = changing this number will give you slightly different results if you're unhappy with the output of the model after training
    Max train steps (iterations the model makes on each images in training) = the number of images you uploaded x 100
    Save interval = the number of images you uploaded x 100
