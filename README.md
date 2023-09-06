@@ -30,6 +30,7 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 5. Start Training:
    Edit the concepts list. Choose a unique identifier for the instance prompt, e.g. "robotMaria" and a generic identifier for the class prompt ("robot)". The unique identifier you choose will be the prompt you use on your final model.
+   
    <img width="806" alt="Screenshot 2023-09-04 at 11 31 44 AM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/5913d75d-a42a-4600-a790-fffd0d17071b">
 
 
@@ -48,24 +49,25 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
    Sample prompt = the string used for "instance prompt" in step 6
 
    Click play, then wait 20-30 minutes for training to complete. Keep your browser active to avoid complications/timing out.
-   <img width="584" alt="Screenshot 2023-09-04 at 12 01 41 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/66fc3bdd-72a1-4246-83f7-bfcbaa9d6949">
+
+    <img width="584" alt="Screenshot 2023-09-04 at 12 01 41 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/66fc3bdd-72a1-4246-83f7-bfcbaa9d6949">
 
 
-9. Specify the weights directory to use (leave blank for latest)
+8. Specify the weights directory to use (leave blank for latest)
 
 
-10. Run to generate a grid of preview images from the last saved weights.
+9. Run to generate a grid of preview images from the last saved weights.
    <img width="1408" alt="Screenshot 2023-09-04 at 1 36 33 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/b8e825c2-38b3-4d4b-9118-a1cf43c23fe3">
 
 
-11. (Optional) Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
+10. (Optional) Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
     This step creates a .ckpt file (similar to .zip) for you model and saves it to your Google Drive
 
 
-12. (Optional) Inference: sets up the environment to run and test your model in the notebook
+11. (Optional) Inference: sets up the environment to run and test your model in the notebook
 
 
-13. (Optional) Run for generating images.
+12. (Optional) Run for generating images.
     prompt = the string used for "instance prompt" in step 6, + additional desired details
     negative_prompt = objects to exclude ("hands" is a popular negative prompt)
     num_samples = the number of sample images to generate
