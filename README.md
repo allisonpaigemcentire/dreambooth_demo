@@ -38,9 +38,13 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 
 7. Edit the python command:
+
    Seed = changing this number will give you slightly different results if you're unhappy with the output of the model after training
+
    Max train steps (iterations the model makes on each images in training) = the number of images you uploaded x 100
+
    Save interval = the number of images you uploaded x 100
+
    Sample prompt = the string used for "instance prompt" in step 6.
 
    Click play, then wait 20-30 minutes for training to complete. Keep your browser active to avoid complications/timing out.
