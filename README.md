@@ -61,7 +61,7 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
    <img width="1408" alt="Screenshot 2023-09-04 at 1 36 33 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/b8e825c2-38b3-4d4b-9118-a1cf43c23fe3">
 
 
-10. (Optional) Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
+10. Convert weights to .ckpt to use in web UIs like AUTOMATIC1111
     This step creates a .ckpt file (similar to .zip) for you model and saves it to your Google Drive
 
 
