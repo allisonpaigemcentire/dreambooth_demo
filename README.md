@@ -69,6 +69,7 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 
 12. (Optional) Run for generating images.
+    
     prompt = the string used for "instance prompt" in step 6, + additional desired details
     negative_prompt = objects to exclude ("hands" is a popular negative prompt)
     num_samples = the number of sample images to generate
