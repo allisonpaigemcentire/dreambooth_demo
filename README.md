@@ -71,12 +71,19 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 12. (Optional) Run for generating images.
     
     prompt = the string used for "instance prompt" in step 6, + additional desired details
+    
     negative_prompt = objects to exclude ("hands" is a popular negative prompt)
+
     num_samples = the number of sample images to generate
+
     guidance_scale = how closely the model should adhere to the prompt (higher number = more creativity)
+
     num_inference_steps = for best results, choose a number between 20 and 65
+
     height = height of output image
+
     width = width of output image
+
 
     <img width="614" alt="Screenshot 2023-09-04 at 1 45 14 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/7c67c2ad-a1a3-4b30-9100-e3b9fe55cd70">
 
