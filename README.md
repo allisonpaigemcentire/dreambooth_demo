@@ -41,11 +41,11 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
    Seed = changing this number will give you slightly different results if you're unhappy with the output of the model after training
 
-   Max train steps (iterations the model makes on each images in training) = the number of images you uploaded x 100
+   Max train steps (iterations the model makes on each images in training) = play with this setting, but I get good results by using the number of images uploaded x 100
 
-   Save interval = the number of images you uploaded x 100
+   Save interval = it works well to use the same formula as max train steps
 
-   Sample prompt = the string used for "instance prompt" in step 6.
+   Sample prompt = the string used for "instance prompt" in step 6
 
    Click play, then wait 20-30 minutes for training to complete. Keep your browser active to avoid complications/timing out.
    <img width="584" alt="Screenshot 2023-09-04 at 12 01 41 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/66fc3bdd-72a1-4246-83f7-bfcbaa9d6949">
