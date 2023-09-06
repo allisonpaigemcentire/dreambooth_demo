@@ -3,7 +3,7 @@ Train your own model
 
 First, confirm you have at least 5GB of space free in your Google Drive, and prepare your image dataset (or use the C-3PO dataset in this repo). Your dataset should include at least 20 images of the subject in different backgrounds, profiles, etc and each image should be cropped to 512 x 512 (the ratio the model expects). I suggest using [ImageMajick](https://imagemagick.org/script/mogrify.php) to batch crop from the command line. You can also get image datasets from [Kaggle](https://www.kaggle.com/datasets?search=image)
 
-Next, navigate to the Colab NoteBook: [Collab Notebook](https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
+Next, navigate to the Colab NoteBook: [Colab Notebook](https://colab.research.google.com/github/ShivamShrirao/diffusers/blob/main/examples/dreambooth/DreamBooth_Stable_Diffusion.ipynb)
 
 Click "Play" to:
 
