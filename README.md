@@ -57,6 +57,7 @@ Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create
 
 
 9. Run to generate a grid of preview images from the last saved weights.
+   
    <img width="1408" alt="Screenshot 2023-09-04 at 1 36 33 PM" src="https://github.com/allisonpaigemcentire/dreambooth_demo/assets/79477856/b8e825c2-38b3-4d4b-9118-a1cf43c23fe3">
 
 
