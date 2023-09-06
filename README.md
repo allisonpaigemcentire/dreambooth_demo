@@ -17,7 +17,7 @@ Click "Play" to:
 
 [Create a HuggingFace Account](https://huggingface.co/join)
 
-Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create a user access token with write access, then copy and paste the token into the colab notebook.
+Navigate to [Settings/tokens](https://huggingface.co/settings/tokens) and create a user access token with **write** access, then copy and paste the token into the colab notebook.
 *Note: The notebook instructs you to read the license and tick the checkbox if you agree. I have not encountered a checkbox with any license; you may only need to read the license for the model you choose.
 
 
